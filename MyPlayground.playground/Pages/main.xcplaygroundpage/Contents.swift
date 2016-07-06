@@ -63,11 +63,15 @@ howdyFriend(myFriend)
 // write your code here
 
 func seeTheCircus() {
-    
-    var circusThing = "Elephant"  //I am having trouble using var within a function. Is this possible? Does it need to be let? If so, how do I reassign within the function?
-    print("Look, there's a \(circusThing)!")
+    var circus = "Elephant"
+    print("Look, there's a \(circus)!")
+    circus = "clown"
+    print("Watch out for the \(circus)!")
     
 }
+
+seeTheCircus()
+seeTheCircus()
 
 
 /*:
